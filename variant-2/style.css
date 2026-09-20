@@ -16,3 +16,6 @@ dialog{border:0;padding:0;background:var(--paper);color:var(--ink);width:min(600
 html,body{max-width:100%;overflow-x:clip}
 :root{--muted:#657175}
 @media(max-width:650px){h1,h2,h3{overflow-wrap:break-word}.details-block>*{min-width:0}.contact h2{font-size:43px}}
+.hero{height:calc(100vh - 86px)}
+.mobile-menu{top:86px}
+@media(max-width:650px){.mobile-menu{top:70px}}
